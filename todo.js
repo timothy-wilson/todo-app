@@ -10,9 +10,9 @@ input.addEventListener("keypress", (keyPressed) => {
         let spanElement = document.createElement("span");
 
         let newTodo = input.value;
-        this.value = " ";
+        input.value = "";
 
-        spanElement.append("X");
+        spanElement.append("🗑️");
         ul.appendChild(li).append(spanElement, newTodo);
 
         deleteTodo();
