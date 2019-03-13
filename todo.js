@@ -33,7 +33,7 @@ const deleteTodo = () => {
 }
 
 ul.addEventListener("click", (ev) => {
-    if (ev.target.classList.includes("listitem")) {
+    if (ev.target.classList.contains("listitem")) {
         ev.target.classList.toggle("checked");
     }
 }, false);

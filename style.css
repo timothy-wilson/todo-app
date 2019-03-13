@@ -6,11 +6,11 @@ body{
     border: 2px solid rgb(200, 250, 250);
     padding-bottom: 500px;
     border-radius: 30px;
+    text-align: center;
 }
 
 h1{
     color: darkgrey;
-    text-align: center;
 }
 
 span:hover{
@@ -23,11 +23,11 @@ span{
 
 .textbox{
     margin: 5px;
-    padding-right: 100px;
+    padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 75%;
     border-radius: 10px;
-    text-overflow: wrap;
 }
 
 ul{
